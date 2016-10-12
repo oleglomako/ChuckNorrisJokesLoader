@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerViewAndFragments</string>
+    <string name="btn_text">Получить данные с серевера</string>
+    <string name="show_json_data_this_text">Тут будут отображены JSON данные</string>
+</resources>
