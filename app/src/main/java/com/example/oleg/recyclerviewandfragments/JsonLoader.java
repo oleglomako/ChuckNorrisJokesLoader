@@ -22,7 +22,7 @@ import java.util.ArrayList;
  */
 public class JsonLoader extends AsyncTask<String, String, String> {
     public static String LOG_TAG = "my_log";
-    private final String JSON_URL = "http://api.icndb.com/jokes/random/100";
+    private final String JSON_URL = "http://api.icndb.com/jokes/random/10";
 
     private String id;
     private String joke;
@@ -35,7 +35,7 @@ public class JsonLoader extends AsyncTask<String, String, String> {
 
     @Override
     protected String doInBackground(String... params) {
-        // получаем данные с внешнего API - 100 фактов о Чак Норрисе
+        // получаем данные с внешнего API - 10 фактов о Чак Норрисе
         try {
             URL url = new URL(JSON_URL);
 

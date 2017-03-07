@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RecyclerViewAndFragments</string>
-    <string name="btn_text">Получить данные с серевера</string>
-    <string name="show_json_data_this_text">Тут будут отображены JSON данные</string>
+    <string name="app_name">Chuck Norris Jokes</string>
+    <string name="btn_text">Get new Chuck Norris Jokes</string>
+    <string name="show_json_data_this_text">Click the button to get 10 random jokes from the server http://api.icndb.com</string>
 </resources>
