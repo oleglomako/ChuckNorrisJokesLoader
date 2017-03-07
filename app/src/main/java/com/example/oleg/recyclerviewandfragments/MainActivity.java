@@ -15,7 +15,7 @@ import android.widget.ListView;
  * во втором - детали айтема.
  * второй заменяет первый и открывается на весь экран после нажатия на айтем
  *
- *да давай пока без кнопки, с фрагментами и просто с ресайклером надо разобраться сначала
+ * да давай пока без кнопки, с фрагментами и просто с ресайклером надо разобраться сначала
  *
  * там в документации ретрофита написано,
  * с какими библиотеками для парсинга json он умеет из коробки работать.
@@ -33,6 +33,8 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE); //убрать заголовок окна
         setContentView(R.layout.activity_main);
+        jsonLoader = new JsonLoader();
+        jsonLoader.execute();
     }
 
     public void onClickButton(View view) {
